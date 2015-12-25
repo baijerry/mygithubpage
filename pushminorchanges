@@ -1,1 +1,5 @@
-git add * | git commit -m "minor changes" | git push origin master:gh-pages
+git add * 
+
+git commit -m "minor changes"
+
+git push origin master:gh-pages
