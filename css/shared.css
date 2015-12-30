@@ -2,8 +2,13 @@ html,body {
     height: 100%;
 }
 
-#top-block {
+#title-block {
     padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+#title-block p{
+    font-size: 20px;
 }
 
 .push-down {
@@ -23,4 +28,8 @@ html,body {
 
 .row  li{
     font-size: 18px;
+}
+
+.row p{
+    font-size: 20px;
 }
