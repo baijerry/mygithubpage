@@ -19,6 +19,11 @@
     padding-top: 10px;
 }
 
+.row {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .row p {
     font-size: 20px;
 }
