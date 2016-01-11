@@ -33,3 +33,21 @@ html,body {
 .row p{
     font-size: 20px;
 }
+
+#main-content .row {
+    text-align: center;
+}
+
+.content-picture {
+    width: 300px;
+}
+
+.thumbnail {
+    margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+    .content-picture {
+        width: 200px;
+    }
+}

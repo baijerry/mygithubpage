@@ -14,7 +14,7 @@
 
 .jumbotron h1 {
     color: #fff;
-    font-size: 90px;  
+    font-size: 70px;  
     font-family: 'Shift', sans-serif;
     font-weight: bold;
     text-shadow: 4px 4px black;
@@ -29,7 +29,7 @@
 
 .jumbotron a {
     color: white;
-    font-size: 17px;
+    font-size: 50px;
     font-weight: bold;
     background-image: url(../pics/jumbotronbackground.png);
 }
