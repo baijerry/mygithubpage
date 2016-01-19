@@ -1,5 +1,5 @@
 .jumbotron {
-    background-color: #efeeea;
+    background-color: #EBF4FA;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -20,6 +20,10 @@
     color: black;
     text-shadow: 3px 3px #848484;
     padding-top: 10px;
+}
+
+.jumbotron h3 {
+    text-align: center;
 }
 
 #front-picture {
