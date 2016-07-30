@@ -2,6 +2,10 @@ html,body {
     height: 100%;
 }
 
+body { 
+    padding-top: 50px; 
+}
+
 #title-block {
     padding-top: 60px;
     padding-bottom: 20px;
@@ -44,6 +48,10 @@ html,body {
 
 .thumbnail {
     margin-top: 50px;
+}
+
+.navbar {
+    font: 500px;
 }
 
 @media (max-width: 768px) {
