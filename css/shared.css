@@ -7,10 +7,19 @@ body {
 }
 
 #title-block {
+    padding-top: 30px;
     padding-bottom: 10px;
 }
 
 #title-block p{
+    font-size: 18px;
+}
+
+#title-block-with-sidenav {
+    padding-bottom: 10px;
+}
+
+#title-block-with-sidenav p{
     font-size: 18px;
 }
 
@@ -57,5 +66,9 @@ body {
 @media (max-width: 768px) {
     .content-picture {
         width: 200px;
+    }
+    
+    #title-block {
+        padding-top: 10px;
     }
 }
