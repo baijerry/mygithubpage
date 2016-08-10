@@ -1,0 +1,67 @@
+.row {
+    border: 1px rgba(183, 175, 175, 0.88) solid;
+    padding: 2%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#list li {
+    padding-bottom: 8px;
+}
+
+#entsoc_logo {
+    padding-top: 55px;
+}
+
+#engsoc_logo {
+    padding-top: 100px;
+}
+
+.row {
+    display: flex;
+}
+
+.col-md-4 {
+    align-items: stretch;
+}
+
+.col-md-4 img{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.content-picture {
+    width: 105%;
+}
+
+img {
+    padding-top: 10px;
+}
+
+@media (max-width: 991px) {
+    .row {
+        display: block;
+    }
+    
+    #entsoc_logo {
+        padding-top: 0px;
+    }
+
+    #engsoc_logo {
+        padding-top: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .content-picture {
+        width: 100%;
+    }
+    
+    #entsoc_logo {
+    padding-top: 0px;
+    }
+
+    #engsoc_logo {
+        padding-top: 0px;
+    }
+}
