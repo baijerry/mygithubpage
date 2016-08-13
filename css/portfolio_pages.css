@@ -1,0 +1,38 @@
+h3 {
+    padding-top: 10px;
+}
+
+#title-block {
+    width: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#title-divide {
+    border-top: 2px solid;
+    border-top-color: rgba(183, 175, 175, 0.88);
+    margin-bottom: 0px;
+}
+
+p {
+    margin-top: 10px;
+    margin-left: 2%
+}
+
+h4 {
+    margin-left: 2%;
+}
+
+@media (max-width: 1100px) {
+    #title-block {
+        display: block;
+    }
+}
+
+a.fancybox img {
+    border: none;
+    box-shadow: 0 1px 7px rgba(0,0,0,0.6);
+}
+
+

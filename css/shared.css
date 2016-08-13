@@ -7,7 +7,7 @@ body {
 }
 
 #title-block {
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 10px;
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 .row p{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #main-content .row {
@@ -71,4 +71,22 @@ body {
     #title-block {
         padding-top: 10px;
     }
+}
+
+.Aligner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Aligner-item {
+    max-width: 50%;
+}
+
+.Aligner-top {
+    align-self: flex-start;
+}
+
+.Align-bottom {
+    align-self: flex-end;
 }
