@@ -20,8 +20,10 @@ p {
     margin-left: 2%
 }
 
-h4 {
+.tools {
     margin-left: 2%;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 a.fancybox img {
@@ -41,6 +43,3 @@ a.fancybox img {
         width: 90% !important;
     }
 }
-
-/* Specific Images that are resized */
-

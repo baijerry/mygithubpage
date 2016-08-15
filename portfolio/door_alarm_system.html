@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Jerry Jihao Bai">
+    <meta name="keywords" content="jerry, bai, jihao, waterloo, projects, portfolio, about, education, experience">
+
+    <link rel="icon" href="../pics/icon.png">
+
+    <title>Jerry Jihao Bai</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <!-- My CSS file -->
+    <link href="../css/shared.css" rel="stylesheet"  >
+    <link href="../css/simple-sidebar.css" rel="stylesheet">
+    <link href="../css/portfolio_pages.css" rel="stylesheet">
+
+    <!-- Image Englarge Code -->
+    <link rel="stylesheet" type="text/css" media="screen" href="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html">Jerry Jihao Bai</a>
+        </div>
+
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-right">
+            <ul class = "nav navbar-nav">
+              <li><a href = "../index.html">Info</a></li>
+              <li class="active"><a href = "../portfolio.html">Portfolio</a></li>
+              <li><a href = "../learning.html">Learning</a></li>
+              <li><a href = "../involvements.html">Involvements</a></li>
+              <li><a href = "../experience.html">Experience</a></li>
+            </ul>
+          </ul>
+        </div><!--/.navbar-collapse collapse-->
+      </div>
+    </nav>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="../portfolio.html">
+                        All
+                    </a>
+                </li>
+                <li><a href="../portfolio/useless_goose_box.html">IoT Useless Goose Box</a></li>
+                <br>
+                <li><a href="../portfolio/door_alarm_system.html">Door Alarm System</a></li>
+                <br>
+                <li><a href="../portfolio/alarm_clock_redesign.html">Alarm Clock Redesign</a></li>
+                <br>
+                <li><a href="../portfolio/badminton_back_saver.html">Badminton Back Saver</a></li>
+                <br>
+                <li><a href="../portfolio/potato_cannon.html">Potato Cannon</a></li>
+                <br>
+                <li><a>Personal Website</a></li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <div id="page-content-wrapper" class="title-block">
+            <!-- Content -->
+            <div class="container-fluid">
+                <div class="row" id="title-block">
+                    <div class="col-lg-5">
+                        <img class="fancybox"  src="../pics/door_alarm_system/back.JPG" width=80%>
+                    </div>
+                    <div class="col-lg-7">
+                            <h1>Door Alarm System</h1>
+                            <p>The Door Alarm System was a hardware project done to learn more about the Arduino, and implemented multiple interrupts, and a custom millis() function. The Arduino control program acts as a security system, which senses when a wooden door is opened. Upon opening, a user must input a password button combination to prevent an alarm from going off. A servo acted as the door's locking latch.</p>
+                    </div>
+                </div>
+            <hr id="title-divide">
+            <div class="container-fluid row" id="main-content">
+
+                <h3><b>Tools Used</b></h3>
+                    <p class="tools"><i><b>Software:</b></i>
+                        C++
+                    </p>
+                    <p class="tools"><i><b>Hardware:</b></i>
+                        Arduino Uno, servo, buttons
+                    </p>
+                
+                <h3><b>Story</b></h3>
+                <p>To open the servo latch, the user clicks the white button. Upon opening the door, the user then has 10 seconds to input the correct 4 color combination of buttons before the alarm goes off. If the user correctly enters the combination, the system is deactivated. To reactivate the system, the blue button is pressed. Interrupts were used to determine when the white and blue buttons were pressed, and a custom millis function provided the timing mechanism.  </p>
+
+                <div class="row">
+                    <div class= "col-md-4 col-sm-6">
+                        <img class= "fancybox" src="../pics/door_alarm_system/closeup.JPG" width=70%>
+                    </div>
+                    <div class= "col-md-4 col-sm-6">
+                        <img class= "fancybox" src="../pics/door_alarm_system/front.JPG" width=70%>
+                    </div>
+                </div>
+
+                <h3><b>Check it out here:</b></h3>
+                <h4><a target="_blank" href="https://github.com/baijerry/Arduino_Door_Alarm">GitHub</a></h4>
+
+            </div> <!-- /container -->
+
+            </div>
+            <!-- /Content -->
+
+            <!-- Footer-->
+            <div class="container" id="footer">
+                <hr>
+                <footer class="footer">
+                <p>&copy; 2016, Jerry Jihao Bai</p>
+                </footer>
+            </div>
+            <!-- /Footer-->
+
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+
+    <!-- Image Enlarge Code-->
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.pack.min.js"></script>
+    <script type="text/javascript">
+    $(function($){
+        var addToAll = false;
+        var gallery = false;
+        var titlePosition = 'outside';
+        $(addToAll ? 'img' : 'img.fancybox').each(function(){
+            var $this = $(this);
+            var title = $this.attr('title');
+            var src = $this.attr('data-big') || $this.attr('src');
+            var a = $('<a href="#" class="fancybox"></a>').attr('href', src).attr('title', title);
+            $this.wrap(a);
+        });
+        if (gallery)
+            $('a.fancybox').attr('rel', 'fancyboxgallery');
+        $('a.fancybox').fancybox({
+            titlePosition: titlePosition
+        });
+    });
+    $.noConflict();
+    </script>
+      
+  </body>
+
+</html>
