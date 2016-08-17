@@ -1,0 +1,16 @@
+img {
+    padding: 10px;
+    border: 1px rgba(183, 175, 175, 0.88) solid;
+}
+
+@media (max-width: 991px) {
+    .content-picture {
+        width: 60%;
+    }
+}
++
+@media (max-width: 768px) {
+    .content-picture {
+        width: 2000px;
+    }
+}
